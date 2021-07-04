@@ -1,9 +1,16 @@
 
 
 
+removeModifiers.ms
+---
+Batch remove modifiers from stack, can be used to list all modifier types applied to a set of objects
+![](previews/removeModifiers.jpg)
+
+
+
 setBackgroundImage.ms
 ---
-Quick method to set up new environmentMap and viewport background image with correct aspect ratio
+Quick method to set up new environment map and viewport background image with correct aspect ratio
 
 ![](previews/setBackgroundImage.jpg)
 
