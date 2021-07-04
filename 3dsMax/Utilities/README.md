@@ -15,7 +15,7 @@ Displays materials from the selected objects, allows to select the objects that 
 
 drawMeshData.ms
 -
-Draws realtime data from selected EditMesh objects, supports only objects with EditableMesh modifier 
+Draws in viewport data from selected EditMesh objects, supports only objects with EditableMesh modifier 
 + vertex numbers, face numbers
 + vertex normals, face normals, rface normals 
 ![drawMeshData](drawMeshData_preview.jpg)
