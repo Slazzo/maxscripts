@@ -1,8 +1,15 @@
 ﻿(
+	/* global params */
+	if sz_frameborder_params == undefined do (
+		::sz_frameborder_params = true;
+		::sz_frameborder_scale = 0.1;
+		::sz_gw_frameborder_clbk = undefined;
+	)
+	
 	fn gw_frameborder =
 	(
 		/* parameters */
-		frame_border_mul = 0.1; --5% border on longest edge
+		local frame_border_mul = ::sz_frameborder_scale; --0.1 = 5% border on longest edge
 		
 		/* border valid only when safeFrames are on */
 		if displaysafeframes do
@@ -36,7 +43,24 @@
 
 	)
 	
-	try( unregisterredrawviewscallback ::sz_gw_frameborder ) catch()
-	::sz_gw_frameborder = gw_frameborder;
-	registerredrawviewscallback ::sz_gw_frameborder;
+	rollout main "Draw custom safe border" width:200 (
+		spinner spn_border_scale "border scale" range:[1e-6, 1, ::sz_frameborder_scale] scale:1e-3
+		checkbutton chk_enable "Enabled" checked:(::sz_gw_frameborder != undefined)
+		
+		on spn_border_scale changed val do ( ::sz_frameborder_scale = val; )
+		
+		on chk_enable changed state do (
+			if state == on then (
+				::sz_gw_frameborder_clbk = gw_frameborder;
+				registerredrawviewscallback ::sz_gw_frameborder_clbk;
+			) else (
+				unregisterredrawviewscallback ::sz_gw_frameborder_clbk;
+				::sz_gw_frameborder_clbk = undefined;
+			)
+		)
+	)
+	
+	try(destroydialog ::sz_gw_frameborder_roll) catch()
+	::sz_gw_frameborder_roll = main;
+	createdialog ::sz_gw_frameborder_roll;
 )
