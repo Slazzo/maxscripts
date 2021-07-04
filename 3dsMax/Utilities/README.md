@@ -3,14 +3,15 @@
 
 removeModifiers.ms
 ---
-Batch remove modifiers from stack, can be used to list all modifier types applied to a set of objects
+Batch remove modifiers from stack, can be used to list all modifier types applied to a set of objects.
+
 ![](previews/removeModifiers.jpg)
 
 
 
 setBackgroundImage.ms
 ---
-Quick method to set up new environment map and viewport background image with correct aspect ratio
+Quick method to set up new environment map and viewport background image with correct aspect ratio.
 
 ![](previews/setBackgroundImage.jpg)
 
@@ -18,7 +19,7 @@ Quick method to set up new environment map and viewport background image with co
 
 selectNodesByMaterial.ms
 ---
-Displays materials from the selected objects, allows to select the objects that depends on material
+Displays materials from the selected objects, allows to select the objects that depends on material.
 
 ![](previews/selectNodesByMaterial.jpg)
 
@@ -26,7 +27,7 @@ Displays materials from the selected objects, allows to select the objects that 
 
 drawMeshData.ms
 ---
-Draws in viewport data from selected EditMesh objects, supports only objects with EditableMesh modifier 
+Draws in viewport data from selected EditMesh objects, supports only objects with EditableMesh modifier.
 + vertex numbers, face numbers
 + vertex normals, face normals, rface normals
 
@@ -36,6 +37,6 @@ Draws in viewport data from selected EditMesh objects, supports only objects wit
 
 drawObjectNames.ms
 ---
-Draws object names in viewport
+Draws object names in viewport.
 
 ![](previews/drawObjectNames.jpg)
