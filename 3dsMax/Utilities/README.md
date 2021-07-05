@@ -54,5 +54,5 @@ showMaterialID.ms
 Displays selected material id in viewport, new option in XView Checker.
 
 ![](previews/showMaterialID.jpg)
-![](previews/showMaterialID_XView.jpg)
+![](previews/showMaterialID_Xview.jpg)
 
