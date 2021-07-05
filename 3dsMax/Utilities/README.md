@@ -21,9 +21,8 @@ Draws object names in viewport.
 
 drawSafeBorder.ms
 ---
-Adds scalable safe border and Maya like render resolution label
+Adds scalable safe border and Maya like render resolution label.
 
-![](previews/drawSafeBorder.jpg)
 ![](previews/drawSafeBorder_view.jpg)
 
 
@@ -55,6 +54,7 @@ showMaterialID.ms
 ---
 Displays selected material id in viewport, new option in XView Checker.
 
-![](previews/showMaterialID.jpg)
 ![](previews/showMaterialID_Xview.jpg)
+![](previews/showMaterialID.jpg)
+
 
