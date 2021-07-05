@@ -58,3 +58,8 @@ Displays selected material id in viewport, new option in XView Checker.
 ![](previews/showMaterialID.jpg)
 
 
+transformLocks.ms
+---
+Quick method to set or clear transform locks on multiple nodes.
+
+![](previews/transformLocks.jpg)
