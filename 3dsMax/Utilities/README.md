@@ -21,8 +21,10 @@ Draws object names in viewport.
 
 drawSafeBorder.ms
 ---
+Adds scalable safe border and Maya like render resolution label
 
 ![](previews/drawSafeBorder.jpg)
+![](previews/drawSafeBorder_view.jpg)
 
 
 removeModifiers.ms
