@@ -3,9 +3,9 @@
 
 drawMeshData.ms
 ---
-Draws in viewport data from selected EditMesh objects, supports only objects with EditableMesh modifier.
-+ vertex numbers, face numbers
-+ vertex normals, face normals, rface normals
+Draws data in viewport from selected EditMesh objects, supports only objects with EditableMesh modifier.
++ vertex/face numbers
++ vertex/face/rface normals
 
 ![](previews/drawMeshData.jpg)
 
@@ -26,9 +26,10 @@ Adds scalable safe border and Maya like render resolution label.
 ![](previews/drawSafeBorder_view.jpg)
 
 
+
 removeModifiers.ms
 ---
-Batch remove modifiers from stack, can be used to list all modifier types applied to a set of objects.
+Batch remove modifiers from object modifiers stack, also can be used to list modifier types used.
 
 ![](previews/removeModifiers.jpg)
 
@@ -58,8 +59,9 @@ Displays selected material id in viewport, new option in XView Checker.
 ![](previews/showMaterialID.jpg)
 
 
+
 transformLocks.ms
 ---
-Quick method to set or clear transform locks on multiple nodes.
+Quick method to set or clear transform locks on multiple objects.
 
 ![](previews/transformLocks.jpg)
