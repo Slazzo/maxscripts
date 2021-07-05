@@ -47,3 +47,12 @@ Quick method to set up new environment map and viewport background image with co
 
 ![](previews/setBackgroundImage.jpg)
 
+
+
+showMaterialID.ms
+---
+Displays selected material id in viewport, new option in XView Checker.
+
+![](previews/showMaterialID.jpg)
+![](previews/showMaterialID_XView.jpg)
+
